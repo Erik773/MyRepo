@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d63f370-d0c1-40e2-a619-180425349e63">
+  <producedTypes>
+    <objectType typeId="3511e2e9-e3f1-4460-ab73-50792e78b8bd" valueTypeId="33034e75-6141-4470-b541-055adb25f3df"/>
+    <refType typeId="ca08acab-0bbb-445a-a2a6-93c3c4048746" valueTypeId="e3fdc4be-a398-4341-aee8-df2295f14d1d"/>
+    <selectionType typeId="ce485fed-5764-4f3e-9069-200a900c99c8" valueTypeId="c855be6f-8630-4074-88a1-1e4d472554f3"/>
+    <listType typeId="3818d1f5-4906-4f4a-ba33-62302ae69bac" valueTypeId="b04eb06a-57ca-4adb-b1d6-cef5dd03d5fb"/>
+    <managerType typeId="db0eaea9-1428-471c-8bcf-cfc03061e709" valueTypeId="ebd12d60-9e43-4000-8753-2cc56b5a41ef"/>
+  </producedTypes>
+  <name>OrderAcceptance</name>
+  <synonym>
+    <key>en</key>
+    <value>Order acceptance</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.OrderAcceptance.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

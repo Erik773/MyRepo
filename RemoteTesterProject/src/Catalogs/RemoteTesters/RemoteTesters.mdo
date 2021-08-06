@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4735031-dd35-43f8-85c9-5ba5887a83b6">
+  <producedTypes>
+    <objectType typeId="ce2ea0e4-3096-4334-ba32-7d5f198dd6a8" valueTypeId="d1e3dc02-5a38-492b-a47c-602419bce353"/>
+    <refType typeId="dfef9b62-d467-4fe1-a3e8-6a31642d6ff0" valueTypeId="4c87ce81-091f-4643-b2fe-e0845e843776"/>
+    <selectionType typeId="029b347b-d05e-4b17-b469-1cad1d2e4e9c" valueTypeId="957ef69d-b535-42af-9087-89b6a06025ca"/>
+    <listType typeId="897a4392-507d-4229-a509-ebb91e0ffef1" valueTypeId="4d2b7216-e516-4e65-a1f0-d15823d81ec2"/>
+    <managerType typeId="c215be91-d5c9-4be0-9d46-2143e987df9b" valueTypeId="cd1557f5-643c-4a3d-95dd-6cff6844711a"/>
+  </producedTypes>
+  <name>RemoteTesters</name>
+  <synonym>
+    <key>en</key>
+    <value>Remote testers</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RemoteTesters.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.RemoteTesters.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

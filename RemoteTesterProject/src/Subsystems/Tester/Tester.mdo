@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50a702f8-385a-43e1-8cd5-37308b2e3273">
+  <name>Tester</name>
+  <synonym>
+    <key>en</key>
+    <value>Tester</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>SessionParameter.TesterSession</content>
+  <content>Catalog.TestCases</content>
+  <content>Catalog.Orders</content>
+  <content>Catalog.CheckLists</content>
+  <content>Catalog.TestCaseTypes</content>
+</mdclass:Subsystem>

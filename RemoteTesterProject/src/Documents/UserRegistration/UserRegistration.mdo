@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a52375c0-d098-49dd-8225-c5e5eee90dc3">
+  <producedTypes>
+    <objectType typeId="9a366451-7962-44f5-8499-2a02002afe76" valueTypeId="643f53d4-3c84-4754-820c-746476ac5844"/>
+    <refType typeId="2dcd48e5-bb80-4908-a00c-31ec394ecc5d" valueTypeId="0330354c-e189-45c1-9e63-c226bf7b4331"/>
+    <selectionType typeId="f3fc5001-bf63-4435-9794-35f765e74da6" valueTypeId="8ec07ca5-af36-478e-b0d7-d6073dfb7e2c"/>
+    <listType typeId="63064d9a-15e9-4774-aeb6-c5de59820a1d" valueTypeId="c35195fe-edf7-4540-9c5f-98bb7283a062"/>
+    <managerType typeId="2bad8408-bf6b-4140-94ef-72e6fc09dc0e" valueTypeId="dd814bfc-84dc-4e6a-afa5-d05d9e798b76"/>
+  </producedTypes>
+  <name>UserRegistration</name>
+  <synonym>
+    <key>en</key>
+    <value>User registration</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.UserRegistration.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

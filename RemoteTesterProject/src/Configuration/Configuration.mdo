@@ -34,4 +34,35 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <subsystems>Subsystem.Debug</subsystems>
+  <subsystems>Subsystem.Customer</subsystems>
+  <subsystems>Subsystem.RemoteTester</subsystems>
+  <subsystems>Subsystem.Tester</subsystems>
+  <sessionParameters>SessionParameter.TesterSession</sessionParameters>
+  <sessionParameters>SessionParameter.RemoteTesterSession</sessionParameters>
+  <sessionParameters>SessionParameter.CustomerSession</sessionParameters>
+  <roles>Role.Tester</roles>
+  <roles>Role.RemoteTester</roles>
+  <roles>Role.Customer</roles>
+  <commonForms>CommonForm.FormAuthentication</commonForms>
+  <catalogs>Catalog.Testers</catalogs>
+  <catalogs>Catalog.Customers</catalogs>
+  <catalogs>Catalog.RemoteTesters</catalogs>
+  <catalogs>Catalog.TestCases</catalogs>
+  <catalogs>Catalog.Orders</catalogs>
+  <catalogs>Catalog.CheckLists</catalogs>
+  <catalogs>Catalog.Users</catalogs>
+  <catalogs>Catalog.TestCaseTypes</catalogs>
+  <documents>Document.OrderAcceptance</documents>
+  <documents>Document.TestCaseExecution</documents>
+  <documents>Document.UserRegistration</documents>
+  <documents>Document.OrderCompletion</documents>
+  <documents>Document.ChekListAcceptance</documents>
+  <documentNumerators>DocumentNumerator.dnumOrder</documentNumerators>
+  <documentNumerators>DocumentNumerator.dnumTestCaseExecution</documentNumerators>
+  <reports>Report.TestsResults</reports>
+  <businessProcesses>BusinessProcess.TestCaseExecutionProcess</businessProcesses>
+  <businessProcesses>BusinessProcess.TestCaseRemoteExecutionProcess</businessProcesses>
+  <tasks>Task.TaskForTester</tasks>
+  <tasks>Task.TaskForRemoteTester</tasks>
 </mdclass:Configuration>

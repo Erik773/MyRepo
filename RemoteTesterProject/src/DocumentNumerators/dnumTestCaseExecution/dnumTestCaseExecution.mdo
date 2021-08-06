@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="644a0850-1d6e-4b0f-b979-503a9e35ba09">
+  <name>dnumTestCaseExecution</name>
+  <synonym>
+    <key>en</key>
+    <value>Document numerator test case execution</value>
+  </synonym>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>
