@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="619870bc-10ad-4c00-a4bc-a8831da3ea48">
+  <producedTypes>
+    <objectType typeId="c95780c8-4e0c-4073-886e-e743c40a5f3b" valueTypeId="90397f44-21af-4e69-bf43-e07a23a8a287"/>
+    <refType typeId="ed81c86a-11b5-4fef-8f26-152b5f101ffd" valueTypeId="2ad46c7a-e29c-4de8-9be0-ee3d3b2b5683"/>
+    <selectionType typeId="91a6f6c3-25b9-49d8-92e7-68049f3af429" valueTypeId="ac6dcdb2-b836-41f0-97e6-af825bbbf4c8"/>
+    <listType typeId="0657db2a-1297-47ab-b851-a360e851ac45" valueTypeId="e2bf01d3-006e-43c1-aa64-2bb74b5fec1b"/>
+    <managerType typeId="630e5a3e-a1c2-47c8-9a72-d4e739d8ccc7" valueTypeId="d7d5d580-88d7-4314-9790-1c2f314aaebc"/>
+  </producedTypes>
+  <name>ЗакрытиеЗаказа</name>
+  <synonym>
+    <key>en</key>
+    <value>Закрытие заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрытиеЗаказа.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

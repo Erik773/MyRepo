@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fcb6dff-466a-4762-8c97-26d972974652">
-  <name>RemoteTester</name>
-  <synonym>
-    <key>en</key>
-    <value>Remote tester</value>
-  </synonym>
-</mdclass:Role>

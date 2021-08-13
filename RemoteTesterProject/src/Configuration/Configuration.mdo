@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="149e0141-9293-46e2-a1f4-f83868116e41">
-  <name>RemoteTesterProject</name>
+  <name>ПроектУдаленноеТестирование</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7325bf18-c094-4db5-a9f9-61ca6b3011cd"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="82e2a540-79b0-4004-9c88-97d09ce02d89"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0818bbbf-998c-48f7-ad85-58f4d95cfbd5"/>
@@ -34,33 +34,36 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
-  <subsystems>Subsystem.Debug</subsystems>
-  <subsystems>Subsystem.Customer</subsystems>
-  <subsystems>Subsystem.RemoteTester</subsystems>
-  <subsystems>Subsystem.Tester</subsystems>
-  <sessionParameters>SessionParameter.TesterSession</sessionParameters>
-  <sessionParameters>SessionParameter.RemoteTesterSession</sessionParameters>
-  <sessionParameters>SessionParameter.CustomerSession</sessionParameters>
-  <roles>Role.Tester</roles>
-  <roles>Role.RemoteTester</roles>
-  <roles>Role.Customer</roles>
-  <commonForms>CommonForm.FormAuthentication</commonForms>
-  <catalogs>Catalog.Testers</catalogs>
-  <catalogs>Catalog.Customers</catalogs>
-  <catalogs>Catalog.RemoteTesters</catalogs>
-  <catalogs>Catalog.TestCases</catalogs>
-  <catalogs>Catalog.Orders</catalogs>
-  <catalogs>Catalog.CheckLists</catalogs>
-  <catalogs>Catalog.Users</catalogs>
-  <catalogs>Catalog.TestCaseTypes</catalogs>
-  <documents>Document.OrderAcceptance</documents>
-  <documents>Document.TestCaseExecution</documents>
-  <documents>Document.UserRegistration</documents>
-  <documents>Document.OrderCompletion</documents>
-  <documents>Document.ChekListAcceptance</documents>
+  <subsystems>Subsystem.ПодсистемаГостя</subsystems>
+  <subsystems>Subsystem.ПодсистемаЗаказчика</subsystems>
+  <subsystems>Subsystem.ПодсистемаУдаленногоТестировщика</subsystems>
+  <subsystems>Subsystem.ПодсистемаТестировщика</subsystems>
+  <sessionParameters>SessionParameter.СеансТестировщика</sessionParameters>
+  <sessionParameters>SessionParameter.СеансУдаленногоТестировщика</sessionParameters>
+  <sessionParameters>SessionParameter.СеансЗаказчика</sessionParameters>
+  <sessionParameters>SessionParameter.СеансГостя</sessionParameters>
+  <roles>Role.Тестировщик</roles>
+  <roles>Role.УдаленныйТестировщик</roles>
+  <roles>Role.Заказчик</roles>
+  <roles>Role.Гость</roles>
+  <roles>Role.Администратор</roles>
+  <commonForms>CommonForm.ФормаАвторизации</commonForms>
+  <catalogs>Catalog.Тестировщики</catalogs>
+  <catalogs>Catalog.Заказчики</catalogs>
+  <catalogs>Catalog.УдаленныеТестировщики</catalogs>
+  <catalogs>Catalog.ТестовыеСценарии</catalogs>
+  <catalogs>Catalog.Заказы</catalogs>
+  <catalogs>Catalog.ЧекЛисты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ТипыТестовыхСценариев</catalogs>
+  <documents>Document.ОформлениеЗаказа</documents>
+  <documents>Document.ИсполнениеТестовогоСценария</documents>
+  <documents>Document.РегистрацияЗаказчика</documents>
+  <documents>Document.ЗакрытиеЗаказа</documents>
+  <documents>Document.УтверждениеЧекЛиста</documents>
   <documentNumerators>DocumentNumerator.dnumOrder</documentNumerators>
   <documentNumerators>DocumentNumerator.dnumTestCaseExecution</documentNumerators>
-  <reports>Report.TestsResults</reports>
+  <reports>Report.РезультатыТестирования</reports>
   <businessProcesses>BusinessProcess.TestCaseExecutionProcess</businessProcesses>
   <businessProcesses>BusinessProcess.TestCaseRemoteExecutionProcess</businessProcesses>
   <tasks>Task.TaskForTester</tasks>

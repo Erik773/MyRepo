@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f887d927-5821-4ab6-9c15-fab6093f3ebb">
+  <producedTypes>
+    <objectType typeId="4dc1affe-9971-4e28-a1b1-3d2f2dabd833" valueTypeId="515807b5-fbd0-470f-99ed-33cf14732a6d"/>
+    <refType typeId="7f9c8d75-3cb0-447a-b82a-ddcf5de70e1c" valueTypeId="da82a953-dcb8-4ee5-b1ee-e0a587b2a76c"/>
+    <selectionType typeId="b43386df-92d1-4f71-9ffa-b071f91760dd" valueTypeId="1ad26f21-b363-41e9-b1db-74c0aa0eb118"/>
+    <listType typeId="1344b665-d04b-47c0-a658-f92a7bc200bf" valueTypeId="bae38b39-d474-4742-ad4a-03cf20888748"/>
+    <managerType typeId="2a66d3cc-f75d-4cb7-8ff0-e62b1562c626" valueTypeId="97c1366c-8cc5-4a44-a48e-2b851aa8622e"/>
+  </producedTypes>
+  <name>ТестовыеСценарии</name>
+  <synonym>
+    <key>en</key>
+    <value>Тестовые сценарии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТестовыеСценарии.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТестовыеСценарии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
