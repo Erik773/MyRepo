@@ -11,6 +11,6 @@
     <key>en</key>
     <value>Интерфейс для незарегистрированных пользователей.</value>
   </explanation>
-  <content>Document.ОформлениеЗаказа</content>
   <content>Role.Гость</content>
+  <content>Document.Регистрация</content>
 </mdclass:Subsystem>

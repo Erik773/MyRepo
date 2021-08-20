@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8abbd17e-48f3-47b3-9c32-0f95c3d6d2fc">
+  <producedTypes>
+    <refType typeId="6b195e25-5d86-4efe-ab02-de9e56ac71a3" valueTypeId="4b02a607-3fe4-43b3-a5d1-6476cc9ce17a"/>
+    <listType typeId="a57abe77-241e-434b-80c1-792753c75edc" valueTypeId="2cffbeda-6f92-4d27-bb65-3b8261930a03"/>
+    <managerType typeId="be37672d-8d24-4067-8890-843f7b3c90d9" valueTypeId="0b270916-99c4-4801-9b72-f66ae0d07af7"/>
+  </producedTypes>
+  <name>ТипыПользователей</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы пользователей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f46ac44c-469e-410a-a394-4097f2d70aae">
+    <name>Тестировщик</name>
+    <synonym>
+      <key>en</key>
+      <value>Тестировщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f32a35b-08b1-4354-9fbe-9b9e18351831">
+    <name>УдаленныйТестировщик</name>
+    <synonym>
+      <key>en</key>
+      <value>Удаленный тестировщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="480b3022-43d3-4c0f-a805-68555571f993">
+    <name>Заказчик</name>
+    <synonym>
+      <key>en</key>
+      <value>Заказчик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

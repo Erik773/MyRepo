@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2c5cd48-2d22-4bde-a236-598e5e482a4a">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2c5cd48-2d22-4bde-a236-598e5e482a4a">
   <producedTypes>
     <objectType typeId="00f62d8c-6767-470a-9617-682313d0ff53" valueTypeId="70a9404c-cb65-4002-af1b-1084b9e4dfd1"/>
     <refType typeId="aa0bf8c4-792f-4135-9404-6e0a7f968337" valueTypeId="764853f0-d4b2-4fc0-aaed-860996f8676e"/>
@@ -30,4 +30,37 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="deaa5acf-144c-4586-8d9e-f8ad99083ece">
+    <name>ФамилияИмяОтчество</name>
+    <synonym>
+      <key>en</key>
+      <value>Фамилия имя отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c94f3fc7-e6b1-4030-aa7e-3befd90f44fa">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

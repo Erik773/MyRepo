@@ -5,7 +5,7 @@
     <value>Authentication</value>
   </title>
   <items xsi:type="form:FormField">
-    <name>Login</name>
+    <name>Логин</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -13,10 +13,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Login</segments>
+      <segments>Логин</segments>
     </dataPath>
     <extendedTooltip>
-      <name>LoginExtendedTooltip</name>
+      <name>ЛогинРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -31,7 +31,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>LoginContextMenu</name>
+      <name>ЛогинКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -54,62 +54,12 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>Password</name>
-    <id>4</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Password</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>PasswordExtendedTooltip</name>
-      <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>PasswordContextMenu</name>
-      <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
   <items xsi:type="form:Button">
-    <name>Accept</name>
+    <name>Войти</name>
     <id>7</id>
     <title>
       <key>en</key>
-      <value>Accept</value>
+      <value>Войти</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -118,7 +68,7 @@
     </userVisible>
     <defaultItem>true</defaultItem>
     <extendedTooltip>
-      <name>AcceptExtendedTooltip</name>
+      <name>ВойтиРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -142,11 +92,11 @@
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:Button">
-    <name>Cancel</name>
+    <name>Отмена</name>
     <id>9</id>
     <title>
       <key>en</key>
-      <value>Cancel</value>
+      <value>Отмена</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -154,7 +104,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>CancelExtendedTooltip</name>
+      <name>ОтменаРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -173,43 +123,6 @@
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <toolTipRepresentation>Auto</toolTipRepresentation>
-    <representationInContextMenu>Auto</representationInContextMenu>
-  </items>
-  <items xsi:type="form:Button">
-    <name>Registration</name>
-    <id>11</id>
-    <title>
-      <key>en</key>
-      <value>Registration</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>RegistrationExtendedTooltip</name>
-      <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>Hyperlink</type>
-    <commandName>Catalog.Пользователи.StandardCommand.Create</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <groupHorizontalAlign>Right</groupHorizontalAlign>
     <placementArea>UserCmds</placementArea>
     <toolTipRepresentation>Auto</toolTipRepresentation>
     <representationInContextMenu>Auto</representationInContextMenu>
@@ -235,30 +148,12 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>Login</name>
+    <name>Логин</name>
     <title>
       <key>en</key>
-      <value>Login</value>
+      <value>Логин</value>
     </title>
     <id>1</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Password</name>
-    <title>
-      <key>en</key>
-      <value>Password</value>
-    </title>
-    <id>2</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

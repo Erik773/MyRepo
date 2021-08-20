@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5892003b-2a63-4249-bd97-ab0ecace5a34">
+  <producedTypes>
+    <refType typeId="512594ad-60d5-4bd5-a92f-9bf5b61586c9" valueTypeId="effdd0f9-290b-4784-84e9-399f3573d64b"/>
+    <listType typeId="e136af58-1027-4ee8-9a0b-380b6603475f" valueTypeId="f74e6de0-4586-4956-ac1d-43e8b9179411"/>
+    <managerType typeId="98f152c6-c9e5-40a9-9514-214814ae695d" valueTypeId="fbcf6093-28dd-4dea-b075-69f0805bf6ee"/>
+  </producedTypes>
+  <name>ТипыТестовыхСценариев</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы тестовых сценариев</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b111a51a-ac95-4408-bdbd-d60434b04869">
+    <name>Контрольный</name>
+    <synonym>
+      <key>en</key>
+      <value>Контрольный</value>
+    </synonym>
+    <comment>Сценарий для сопоставления и проверки качества тестирования</comment>
+  </enumValues>
+  <enumValues uuid="c0b769e3-7884-494f-81f2-014c00110726">
+    <name>Свободный</name>
+    <synonym>
+      <key>en</key>
+      <value>Свободный</value>
+    </synonym>
+    <comment>Выполняется только удаленным тестировщиком</comment>
+  </enumValues>
+  <enumValues uuid="d99eed4c-eb18-425f-985f-80d765bca029">
+    <name>НеКонтролируемый</name>
+    <synonym>
+      <key>en</key>
+      <value>Не контролируемый</value>
+    </synonym>
+    <comment>Не возможно проверить, например фидбэк по юзабилити</comment>
+  </enumValues>
+</mdclass:Enum>

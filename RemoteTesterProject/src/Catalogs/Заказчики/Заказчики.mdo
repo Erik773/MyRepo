@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfc7e618-3d8b-46f2-9901-83a07ebec442">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfc7e618-3d8b-46f2-9901-83a07ebec442">
   <producedTypes>
     <objectType typeId="36226d97-c4da-4620-a606-42818b99edc0" valueTypeId="003c6b17-16bc-4d80-9384-d6c7ca83d8c1"/>
     <refType typeId="a8aed3d7-e4b9-458c-a4d9-e24d035ac792" valueTypeId="a6868d1e-7603-4d22-b672-6ea967f453f1"/>
@@ -30,4 +30,52 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b299bad5-3b66-4df5-90ad-fd1619ceb3a5">
+    <name>ФамилияИмяОтчество</name>
+    <synonym>
+      <key>en</key>
+      <value>Фамилия имя отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ee25c08-bbc7-4162-9ba5-12523296c229">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e548a348-1d9d-4618-b030-6a42d869bcbf">
+    <name>Заказы</name>
+    <synonym>
+      <key>en</key>
+      <value>Заказы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

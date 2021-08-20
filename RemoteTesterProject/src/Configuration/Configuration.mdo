@@ -11,6 +11,7 @@
   <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -38,6 +39,7 @@
   <subsystems>Subsystem.ПодсистемаЗаказчика</subsystems>
   <subsystems>Subsystem.ПодсистемаУдаленногоТестировщика</subsystems>
   <subsystems>Subsystem.ПодсистемаТестировщика</subsystems>
+  <subsystems>Subsystem.ПодсистемаАдминистратора</subsystems>
   <sessionParameters>SessionParameter.СеансТестировщика</sessionParameters>
   <sessionParameters>SessionParameter.СеансУдаленногоТестировщика</sessionParameters>
   <sessionParameters>SessionParameter.СеансЗаказчика</sessionParameters>
@@ -47,6 +49,7 @@
   <roles>Role.Заказчик</roles>
   <roles>Role.Гость</roles>
   <roles>Role.Администратор</roles>
+  <commonCommands>CommonCommand.АвторизоватьПользователя</commonCommands>
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <catalogs>Catalog.Тестировщики</catalogs>
   <catalogs>Catalog.Заказчики</catalogs>
@@ -55,15 +58,19 @@
   <catalogs>Catalog.Заказы</catalogs>
   <catalogs>Catalog.ЧекЛисты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.ТипыТестовыхСценариев</catalogs>
   <documents>Document.ОформлениеЗаказа</documents>
   <documents>Document.ИсполнениеТестовогоСценария</documents>
-  <documents>Document.РегистрацияЗаказчика</documents>
+  <documents>Document.Регистрация</documents>
   <documents>Document.ЗакрытиеЗаказа</documents>
   <documents>Document.УтверждениеЧекЛиста</documents>
+  <documents>Document.ИзменениеУровняКвалификации</documents>
   <documentNumerators>DocumentNumerator.dnumOrder</documentNumerators>
   <documentNumerators>DocumentNumerator.dnumTestCaseExecution</documentNumerators>
+  <enums>Enum.ТипыПользователей</enums>
+  <enums>Enum.ТипыТестовыхСценариев</enums>
+  <enums>Enum.КвалификацииУдаленныхТестировщиков</enums>
   <reports>Report.РезультатыТестирования</reports>
+  <reports>Report.РезультатыСравненияКонтрольногоЧекЛиста</reports>
   <businessProcesses>BusinessProcess.TestCaseExecutionProcess</businessProcesses>
   <businessProcesses>BusinessProcess.TestCaseRemoteExecutionProcess</businessProcesses>
   <tasks>Task.TaskForTester</tasks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4735031-dd35-43f8-85c9-5ba5887a83b6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4735031-dd35-43f8-85c9-5ba5887a83b6">
   <producedTypes>
     <objectType typeId="ce2ea0e4-3096-4334-ba32-7d5f198dd6a8" valueTypeId="d1e3dc02-5a38-492b-a47c-602419bce353"/>
     <refType typeId="dfef9b62-d467-4fe1-a3e8-6a31642d6ff0" valueTypeId="4c87ce81-091f-4643-b2fe-e0845e843776"/>
@@ -30,4 +30,52 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1b59b0c9-6f4c-432b-b81f-3fec1599aeab">
+    <name>ФамилияИмяОтчество</name>
+    <synonym>
+      <key>en</key>
+      <value>Фамилия имя отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70863cf6-f295-4576-839a-310d97280a08">
+    <name>Квалификация</name>
+    <synonym>
+      <key>en</key>
+      <value>Квалификация</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КвалификацииУдаленныхТестировщиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5fd32d2-caa0-40a6-bcda-2ac51815a57f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

@@ -70,7 +70,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РегистрацияЗаказчика</name>
+		<name>Document.Регистрация</name>
 		<right>
 			<name>Edit</name>
 			<value>true</value>
