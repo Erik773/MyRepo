@@ -55,12 +55,11 @@
       <value>Пользователь</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="e548a348-1d9d-4618-b030-6a42d869bcbf">

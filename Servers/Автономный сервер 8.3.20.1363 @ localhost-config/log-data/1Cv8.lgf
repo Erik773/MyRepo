@@ -1,0 +1,20 @@
+﻿1CV8LOG(ver 2.0)
+dbd89cc4-58c7-4811-9088-2be7861547dd
+
+{1,071523a4-516f-4fce-ba4b-0d11ab7a1893,"",1},
+{2,"Apyshev-E.dept07",1},
+{3,"JobScheduler",1},
+{6,"Apyshev-E.dept07",1},
+{4,"_$Session$_.Start",1},
+{13,1,1},
+{3,"Designer",2},
+{4,"_$InfoBase$_.ConfigUpdate",2},
+{4,"_$InfoBase$_.DBConfigUpdateStart",3},
+{4,"_$InfoBase$_.DBConfigUpdate",4},
+{3,"1CV8C",3},
+{4,"_$PerformError$_",5},
+{4,"_$Transaction$_.Begin",6},
+{4,"_$Data$_.New",7},
+{5,a52375c0-d098-49dd-8225-c5e5eee90dc3,"Документ.Регистрация",1},
+{4,"_$Data$_.Post",8},
+{4,"_$Transaction$_.Commit",9}
