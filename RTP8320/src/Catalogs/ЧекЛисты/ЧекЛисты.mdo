@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a98decb0-1844-4818-a4ed-e9a7ebd0e9b9">
+  <producedTypes>
+    <objectType typeId="332bc992-72fe-4e92-9dfa-e8f4a44d4d14" valueTypeId="416868c9-1e1f-4e6c-8623-d89d813c5cfa"/>
+    <refType typeId="e92a372c-7455-41f4-87c8-4d82976d03a5" valueTypeId="80bb8f2d-f775-4c75-b6bd-62a723e8ab70"/>
+    <selectionType typeId="f4bcd262-fc0c-48ff-9664-169e3903bbb2" valueTypeId="cf5287ad-2f39-4400-be59-fbbee7353697"/>
+    <listType typeId="f0273259-1468-4a1a-ae6f-54db0fccd2b8" valueTypeId="4b5c3dae-cd92-4eec-b803-202fa3fc0a34"/>
+    <managerType typeId="df1caa30-4d1d-4ca0-aa4f-c6cd8e037959" valueTypeId="70ca9fcf-b1fb-48df-b451-e09f25a3b470"/>
+  </producedTypes>
+  <name>ЧекЛисты</name>
+  <synonym>
+    <key>en</key>
+    <value>Чек листы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЧекЛисты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЧекЛисты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

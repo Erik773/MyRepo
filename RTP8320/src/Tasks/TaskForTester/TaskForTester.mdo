@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da1186d0-2f13-4fc8-8210-2ce5ea5ff7cf">
+  <producedTypes>
+    <objectType typeId="94e1a348-b375-4f4d-99ea-6d180a7652eb" valueTypeId="98f6c370-5de5-43a4-b77b-79beaae88531"/>
+    <refType typeId="e581c8db-915f-4f8c-906c-bb6b17938665" valueTypeId="fa81dbdf-d355-4e8b-82d7-8eae6db0b111"/>
+    <selectionType typeId="ba12bbc8-2451-4578-b27a-3838982e5dd8" valueTypeId="98e64b65-615c-46de-9771-a26fb1ce51b7"/>
+    <listType typeId="121072b1-7513-4185-bb35-5526019688b6" valueTypeId="33848855-7de9-4ca9-b6f3-687cc3851c16"/>
+    <managerType typeId="2813008c-d718-4ddb-ab51-08727962790b" valueTypeId="8422cd3a-a257-4018-ac9e-d22c2963c34b"/>
+  </producedTypes>
+  <name>TaskForTester</name>
+  <synonym>
+    <key>en</key>
+    <value>Task for tester</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.TaskForTester.StandardAttribute.Number</inputByString>
+  <inputByString>Task.TaskForTester.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>

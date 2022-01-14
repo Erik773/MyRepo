@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="149e0141-9293-46e2-a1f4-f83868116e41">
+  <name>ПроектУдаленноеТестирование</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7325bf18-c094-4db5-a9f9-61ca6b3011cd"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="82e2a540-79b0-4004-9c88-97d09ce02d89"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0818bbbf-998c-48f7-ad85-58f4d95cfbd5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8930edf6-0262-420f-8a80-5afaeb23b1cb"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="41fcaf97-0d9e-4ef2-9a4b-7b8ae9fe5418"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4c3f4f0d-b28d-4740-b87f-697d6359d124"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="28d7cbf6-432a-4eaf-9b4b-2fb23cea2fd3"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="b681601c-760b-4e8c-9e25-73a78a54dbfc">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.ПодсистемаЗаказчика</subsystems>
+  <subsystems>Subsystem.ПодсистемаУдаленногоТестировщика</subsystems>
+  <subsystems>Subsystem.ПодсистемаТестировщика</subsystems>
+  <subsystems>Subsystem.ПодсистемаАдминистратора</subsystems>
+  <sessionParameters>SessionParameter.СеансТестировщика</sessionParameters>
+  <sessionParameters>SessionParameter.СеансУдаленногоТестировщика</sessionParameters>
+  <sessionParameters>SessionParameter.СеансЗаказчика</sessionParameters>
+  <sessionParameters>SessionParameter.СеансАдминистратора</sessionParameters>
+  <roles>Role.Тестировщик</roles>
+  <roles>Role.УдаленныйТестировщик</roles>
+  <roles>Role.Заказчик</roles>
+  <roles>Role.Администратор</roles>
+  <commonCommands>CommonCommand.АвторизоватьПользователя</commonCommands>
+  <catalogs>Catalog.Тестировщики</catalogs>
+  <catalogs>Catalog.Заказчики</catalogs>
+  <catalogs>Catalog.УдаленныеТестировщики</catalogs>
+  <catalogs>Catalog.ТестовыеСценарии</catalogs>
+  <catalogs>Catalog.Заказы</catalogs>
+  <catalogs>Catalog.ЧекЛисты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ОформлениеЗаказа</documents>
+  <documents>Document.ИсполнениеТестовогоСценария</documents>
+  <documents>Document.РегистрацияПользователя</documents>
+  <documents>Document.ЗакрытиеЗаказа</documents>
+  <documents>Document.УтверждениеЧекЛиста</documents>
+  <documents>Document.ИзменениеУровняКвалификации</documents>
+  <documents>Document.УдалениеПользователя</documents>
+  <documentNumerators>DocumentNumerator.dnumOrder</documentNumerators>
+  <documentNumerators>DocumentNumerator.dnumTestCaseExecution</documentNumerators>
+  <enums>Enum.ТипыПользователей</enums>
+  <enums>Enum.ТипыТестовыхСценариев</enums>
+  <enums>Enum.КвалификацииУдаленныхТестировщиков</enums>
+  <reports>Report.РезультатыТестирования</reports>
+  <reports>Report.РезультатыСравненияКонтрольногоЧекЛиста</reports>
+  <businessProcesses>BusinessProcess.TestCaseExecutionProcess</businessProcesses>
+  <businessProcesses>BusinessProcess.TestCaseRemoteExecutionProcess</businessProcesses>
+  <tasks>Task.TaskForTester</tasks>
+  <tasks>Task.TaskForRemoteTester</tasks>
+</mdclass:Configuration>

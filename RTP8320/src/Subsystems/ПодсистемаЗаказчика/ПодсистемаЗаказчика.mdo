@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33a8b6a5-aff3-41c5-a119-c221e5460c36">
+  <name>ПодсистемаЗаказчика</name>
+  <synonym>
+    <key>en</key>
+    <value>Подсистема заказчика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.Заказчик</content>
+  <content>Catalog.Заказы</content>
+  <content>Document.ОформлениеЗаказа</content>
+  <content>SessionParameter.СеансЗаказчика</content>
+  <content>Role.Администратор</content>
+  <content>SessionParameter.СеансАдминистратора</content>
+</mdclass:Subsystem>
