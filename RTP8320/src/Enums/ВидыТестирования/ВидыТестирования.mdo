@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0becac4-e963-4f40-8abe-1cc1b0642365">
+  <producedTypes>
+    <refType typeId="160dc420-f987-4d0b-84bb-2010a306bbef" valueTypeId="572faebe-77a0-4191-963b-b920e6d435b0"/>
+    <listType typeId="01972e84-b994-4bf4-99b2-97953aac7211" valueTypeId="9b37c359-992f-43a5-982c-868e9ac00048"/>
+    <managerType typeId="26ca9b1b-f25c-4507-8b1b-3f2a4e1e4dae" valueTypeId="aa7b4cc5-6644-4ef3-9c82-78f0dcb6d1aa"/>
+  </producedTypes>
+  <name>ВидыТестирования</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды тестирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd20b83f-e234-46da-947c-dce7a0cf8502">
+    <name>НагрузочноеТестирование</name>
+    <synonym>
+      <key>en</key>
+      <value>Нагрузочное тестирование</value>
+    </synonym>
+    <comment>Проверяет работу веб-ресурса при большом количестве пользователей</comment>
+  </enumValues>
+  <enumValues uuid="3c353efc-5bb4-43a3-b018-862a65c1b356">
+    <name>UXТестирование</name>
+    <synonym>
+      <key>en</key>
+      <value>UXТестирование</value>
+    </synonym>
+    <comment>User Experience тестирование позволяет понять какой пользовательский опыт остается при взаимодействии с продуктом</comment>
+  </enumValues>
+  <enumValues uuid="3b15909b-2fc5-45fa-8ade-2e619ccba248">
+    <name>ЮзабилитиТестирование</name>
+    <synonym>
+      <key>en</key>
+      <value>Юзабилити тестирование</value>
+    </synonym>
+    <comment>Позволяет проверить насколько эффективно пользователь может взаимодействовать с интерфейсом продукта</comment>
+  </enumValues>
+  <enumValues uuid="e9e26505-6178-4ae2-9468-03ded57560b3">
+    <name>ABТестирование</name>
+    <synonym>
+      <key>en</key>
+      <value>ABТестирование</value>
+    </synonym>
+    <comment>Проверяет эффективность введения новых фичей</comment>
+  </enumValues>
+  <enumValues uuid="d9572af8-d6ce-4388-84dd-e61b51a5e9b1">
+    <name>БетаТестирование</name>
+    <synonym>
+      <key>en</key>
+      <value>Бета тестирование</value>
+    </synonym>
+    <comment>Пользовательское тестирование перед выпуском продукта</comment>
+  </enumValues>
+</mdclass:Enum>

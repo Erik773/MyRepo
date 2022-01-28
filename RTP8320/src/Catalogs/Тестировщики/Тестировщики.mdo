@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.Тестировщики.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="deaa5acf-144c-4586-8d9e-f8ad99083ece">
     <name>ФамилияИмяОтчество</name>
     <synonym>
@@ -62,4 +63,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="6ae38061-29e2-4d94-b2e8-e9dfa53ce475">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

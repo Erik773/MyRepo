@@ -67,10 +67,10 @@
   <enums>Enum.ТипыПользователей</enums>
   <enums>Enum.ТипыТестовыхСценариев</enums>
   <enums>Enum.КвалификацииУдаленныхТестировщиков</enums>
+  <enums>Enum.ВидыТестирования</enums>
+  <enums>Enum.СтатусыЗаказа</enums>
   <reports>Report.РезультатыТестирования</reports>
   <reports>Report.РезультатыСравненияКонтрольногоЧекЛиста</reports>
-  <businessProcesses>BusinessProcess.TestCaseExecutionProcess</businessProcesses>
-  <businessProcesses>BusinessProcess.TestCaseRemoteExecutionProcess</businessProcesses>
-  <tasks>Task.TaskForTester</tasks>
-  <tasks>Task.TaskForRemoteTester</tasks>
+  <businessProcesses>BusinessProcess.ОбработкаЗаказа</businessProcesses>
+  <tasks>Task.ОбработкаЗаказа</tasks>
 </mdclass:Configuration>

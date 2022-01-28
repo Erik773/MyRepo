@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8b85f40-e0ea-44df-ae25-10a003e0a8ab">
+  <producedTypes>
+    <objectType typeId="e82d9159-df92-4f82-bb17-7de88b9a1425" valueTypeId="0d856619-82a9-46e4-8d19-c4ad3a6e265a"/>
+    <refType typeId="caf16078-254b-4c02-99b3-693b9f456135" valueTypeId="451177b7-a08a-423e-9247-a34b87585a6c"/>
+    <selectionType typeId="25768738-4eb1-4173-9fe8-eaa9ec342f33" valueTypeId="d5623d65-a821-4a18-a0e6-b17ffaa81731"/>
+    <listType typeId="255ed0d5-94b2-4733-bc40-593cc662cdd7" valueTypeId="37b4db0b-80a4-4d9c-91d6-23d3679f685a"/>
+    <managerType typeId="1abb31c1-b07c-4a66-a94a-fee42919d768" valueTypeId="f0a685a2-ca98-488c-b105-61403a9dc982"/>
+    <routePointRef typeId="4d3db92f-e6b7-4e97-8b29-55f930bb7155" valueTypeId="46663d91-2c0e-48bd-8d0b-69eef36d0e46"/>
+  </producedTypes>
+  <name>ОбработкаЗаказа</name>
+  <synonym>
+    <key>en</key>
+    <value>Обработка заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ОбработкаЗаказа.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ОбработкаЗаказа</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+</mdclass:BusinessProcess>

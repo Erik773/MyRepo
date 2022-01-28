@@ -1,0 +1,17 @@
+server:
+  address: "localhost"
+  port: 8315
+database:
+  path: "D:\\Works\\MyConfiguration\\ibs\\RTPAC8320"
+infobase:
+  id: "f55e91e5-dcfc-4e0f-bd2f-e37b982a76c9"
+  name: "RTP8320"
+http:
+- base: "/"
+gates:
+  ssh:
+    admin:
+      address: "localhost"
+      port: 1543
+      host-key: "D:\\Works\\MyConfiguration\\GitRepo\\Серверы\\Автономный сервер 8.3.20.1590\
+        \ @ localhost-config\\.ssh\\id_rsa"
