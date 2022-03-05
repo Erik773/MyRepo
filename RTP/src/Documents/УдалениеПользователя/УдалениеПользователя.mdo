@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c7988b7-e398-4beb-ae89-35d39dd0bdbc">
+  <producedTypes>
+    <objectType typeId="f683a9c4-8ac6-4464-8b06-fb8a1610fd86" valueTypeId="8fdd7887-b70b-4ce1-b065-cdd19cf771f3"/>
+    <refType typeId="888046f7-68d2-4e68-84b2-f09a81000d63" valueTypeId="6ab60950-5f34-4c8d-a1fd-591b2942a1ed"/>
+    <selectionType typeId="4aeb22d5-ea46-41f6-b2a4-1354815339ca" valueTypeId="8e8b9fd7-2299-47ae-9e97-d4667665a1a8"/>
+    <listType typeId="9e983a25-9e59-47ae-97d5-ffb4b2a5b657" valueTypeId="401ecb85-3b9d-446b-bbff-1b09ba586347"/>
+    <managerType typeId="5c4f6c64-90c4-4ed4-8d63-2b260aaf858f" valueTypeId="8d9321db-fbec-436b-a32b-ed73332025b2"/>
+  </producedTypes>
+  <name>УдалениеПользователя</name>
+  <synonym>
+    <key>en</key>
+    <value>Удаление пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УдалениеПользователя.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УдалениеПользователя.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УдалениеПользователя.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d8f515c0-a1d1-4079-bd9d-01767e010616">
+    <name>ЛогинПользователя</name>
+    <synonym>
+      <key>en</key>
+      <value>Логин пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7cd2817d-d1a9-4f0f-9e61-b3550584787b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f93241b8-8659-4b70-95a2-b8a794be08e9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

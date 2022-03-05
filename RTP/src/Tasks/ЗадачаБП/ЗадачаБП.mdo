@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b1972c8-1c69-45e5-a830-e8d3ff01e827">
+  <producedTypes>
+    <objectType typeId="ae4e6f40-4f90-4fe5-8cdf-f82f753b314d" valueTypeId="0744692f-b8a0-4ecf-a2b1-c20e836e56d3"/>
+    <refType typeId="8ffa3f84-3fef-4135-bf63-f86d49466470" valueTypeId="78fe03b2-87f6-4696-9a0d-4c23bb323a75"/>
+    <selectionType typeId="7f7c154d-cd81-4ac3-99bf-16192a8e252e" valueTypeId="22a2b7d8-c28b-43b2-9408-0dad16d51701"/>
+    <listType typeId="d045b75f-9892-48a3-a29f-3c3d5c96b81b" valueTypeId="683b49df-77e3-44f3-91ca-b453f3b8fa7d"/>
+    <managerType typeId="3f982b3a-c935-4eda-aca6-03a584d41fb0" valueTypeId="f938a2fd-ec7b-41b4-884c-85d8b583e7fb"/>
+  </producedTypes>
+  <name>ЗадачаБП</name>
+  <synonym>
+    <key>en</key>
+    <value>Задача БП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаБП.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ЗадачаБП.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>255</descriptionLength>
+  <addressing>InformationRegister.РегистрАдресации</addressing>
+  <mainAddressingAttribute>Task.ЗадачаБП.AddressingAttribute.Исполнитель</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Task.ЗадачаБП.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Task.ЗадачаБП.Form.ФормаСписка</defaultListForm>
+  <forms uuid="3b8eccdb-fe13-4681-b9df-91bc4c61ee75">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e2d6c4e7-d33f-4452-a971-b74938a81c11">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="9e832b4e-c8de-4a12-a480-07dadb9310e7">
+    <name>ТипПользователя</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип пользователя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.ТипПользователя</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="c9c5de19-54fc-4350-ba56-e41aa30610f1">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>en</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.Исполнитель</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+</mdclass:Task>

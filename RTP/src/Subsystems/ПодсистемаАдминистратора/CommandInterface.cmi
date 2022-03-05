@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Заказчики.StandardCommand.OpenList</commands>
+      <commands>Catalog.Тестировщики.StandardCommand.OpenList</commands>
+      <commands>Catalog.Менеджеры.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.УдаленныеТестировщики.StandardCommand.OpenList</commands>
+      <commands>Document.РегистрацияПользователя.StandardCommand.OpenList</commands>
+      <commands>Document.УдалениеПользователя.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

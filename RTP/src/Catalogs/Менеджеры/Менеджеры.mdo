@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8b0e0b6-7484-4a45-8d7c-6b88b252116e">
+  <producedTypes>
+    <objectType typeId="a6401ce3-d292-4b6b-9ab1-383ab8ae2937" valueTypeId="01c15708-db1c-4ded-bc1b-943eae1cab5c"/>
+    <refType typeId="7aa215c4-2195-49e6-8b83-26882e19ce39" valueTypeId="168f9fc2-0896-4623-bfd5-6e8a61cb7441"/>
+    <selectionType typeId="9374b7e1-8422-465b-b33a-7ae110ad85fa" valueTypeId="50a716b3-052c-4294-946f-27da61a8e131"/>
+    <listType typeId="d38b10bd-3e81-4ebf-ac16-40384b01af4d" valueTypeId="703004c5-4db5-458f-a253-706578603ef7"/>
+    <managerType typeId="af516a12-fc73-4216-b57c-619d54442f05" valueTypeId="6d0004d2-871c-48ac-a19c-84936e272e88"/>
+  </producedTypes>
+  <name>Менеджеры</name>
+  <synonym>
+    <key>en</key>
+    <value>Менеджеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Менеджеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Менеджеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Менеджеры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Менеджеры.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="57ca0f41-9df5-4fd6-a800-8712e6912763">
+    <name>ФамилияИмяОтчество</name>
+    <synonym>
+      <key>en</key>
+      <value>Фамилия имя отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d3b28ab-67c7-4f37-b77f-4864e02e291f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9cd97790-4753-46f1-9df1-6c9b3c0d51a5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="76478947-4ea3-4694-aa8f-9e05e0ee0fc0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

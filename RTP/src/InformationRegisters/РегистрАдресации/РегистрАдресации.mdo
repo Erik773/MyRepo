@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03d3a531-dd46-4606-8f40-3be7edf2f4d8">
+  <producedTypes>
+    <selectionType typeId="c70f45ed-595f-4f90-9105-2c2f85b09f90" valueTypeId="39ad5283-118a-4b92-9c6e-1b83b92c059f"/>
+    <listType typeId="802d2f25-0fbb-4de5-9929-50fd48ebe15d" valueTypeId="3a1cb36d-a1c3-4c14-b26c-e41893d7e33c"/>
+    <managerType typeId="b1df8372-3efc-46f1-8615-f6d1716c107f" valueTypeId="4eea8c2d-f557-41c9-9bd5-1c05137e14ba"/>
+    <recordSetType typeId="bfe1e29e-5186-4725-9f59-2b51629c8ecf" valueTypeId="973d207d-2092-45f6-a989-7b15d3105cad"/>
+    <recordKeyType typeId="88d20a1a-e484-427f-bbd9-c8c0cddb53b0" valueTypeId="9d9662b4-69bc-4aed-8103-832fd679d3a0"/>
+    <recordType typeId="ca3c08d0-2922-4d1d-8b5e-0bcf02e45afd" valueTypeId="9433cb29-e001-42ca-ad5c-c31340852cef"/>
+    <recordManagerType typeId="ddddad43-97da-43f3-baef-3c5d7f7c8964" valueTypeId="147cd796-f1d2-4586-88bd-8379e7bb1ffc"/>
+  </producedTypes>
+  <name>РегистрАдресации</name>
+  <synonym>
+    <key>en</key>
+    <value>Регистр адресации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6ba99f12-c8d1-44b5-a2c3-728a717cf03c">
+    <name>ТипПользователя</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип пользователя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="69820759-de57-480f-8aac-8623bca0f230">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>en</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

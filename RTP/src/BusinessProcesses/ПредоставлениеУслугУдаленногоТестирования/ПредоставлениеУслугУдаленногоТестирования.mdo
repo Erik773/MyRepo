@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bb0a175-6f14-4bb5-9ba3-01c20e1f7e5a">
+  <producedTypes>
+    <objectType typeId="87b8a0a8-6fc6-475c-a1e7-508b1702eead" valueTypeId="b4a14e57-18d4-4fd4-a857-b9efd41b9f32"/>
+    <refType typeId="d6c3dbcd-65b3-4e26-a48c-10a56a41ebdd" valueTypeId="6699a213-d72c-40b3-90fc-03a012c4864b"/>
+    <selectionType typeId="0ec0aedd-7dd7-4424-8238-4e76c5f56185" valueTypeId="450e040d-a751-4ef2-8d7f-efd898b96466"/>
+    <listType typeId="2c79ec7f-9c0c-4e4c-ba10-531b74570694" valueTypeId="7756567a-0e7c-4ce2-8e63-b39bebf8d77c"/>
+    <managerType typeId="e6dc0640-988a-463c-8b7e-ff16069699bf" valueTypeId="c0871b6a-a76a-49c2-9936-9f044e64f943"/>
+    <routePointRef typeId="00b24630-423b-4c1e-bcfe-4376fd517c40" valueTypeId="f031e2a7-a77d-44dd-972c-4c55f63b80c7"/>
+  </producedTypes>
+  <name>ПредоставлениеУслугУдаленногоТестирования</name>
+  <synonym>
+    <key>en</key>
+    <value>Предоставление услуг удаленного тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>ПредоставлениеУслугУдаленногоТестирования</value>
+  </objectPresentation>
+  <explanation>
+    <key>en</key>
+    <value>Это общий бизнес процесс описывающий работу от получения заказа до его закрытия, включающий в себя процесс тестирования</value>
+  </explanation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования.Form.ФормаЭлемента</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаБП</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="7e037883-e090-4ef0-aef9-28d36be0b7f0">
+    <name>Заказчик</name>
+    <synonym>
+      <key>en</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1c44f5ce-6204-4fcd-b424-abe720993e4e">
+    <name>Менеджер</name>
+    <synonym>
+      <key>en</key>
+      <value>Менеджер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Менеджеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="19bf8aac-1968-4f85-92c6-1641ce2cb723">
+    <name>Тестировщик</name>
+    <synonym>
+      <key>en</key>
+      <value>Тестировщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тестировщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="79bde92c-70e5-49d5-9024-bfa017f7ac15">
+    <name>УдаленныйТестировщик</name>
+    <synonym>
+      <key>en</key>
+      <value>Удаленный тестировщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УдаленныеТестировщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="96b98b56-e477-4856-ad40-f3c96c291404">
+    <name>СогласованиеЗаказа</name>
+    <synonym>
+      <key>en</key>
+      <value>Согласование заказа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1d91abc7-f3b7-43d1-9e1d-c48d5f2e86fc">
+    <name>УтверждениеЧекЛиста</name>
+    <synonym>
+      <key>en</key>
+      <value>Утверждение чек листа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8fae2771-714a-4634-9171-95b7df81bd70">
+    <name>ОписаниеЗадачи</name>
+    <synonym>
+      <key>en</key>
+      <value>Описание задачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fe080223-a36c-4a7b-b8d9-8d17e389f144">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>en</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="6da6306f-19d0-4ef0-964d-16ee6a6958df">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

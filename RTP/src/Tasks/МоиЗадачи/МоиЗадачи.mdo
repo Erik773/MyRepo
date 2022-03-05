@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15281c97-f1e2-457d-a8f1-a17c29fd1fb0">
+  <producedTypes>
+    <objectType typeId="5e712dc1-f6c6-4e10-8337-29d9afdc9193" valueTypeId="3ae5b9d0-d79b-4bb1-956e-05c27e95b117"/>
+    <refType typeId="76df0a44-698b-43ab-923a-5884bfbcc059" valueTypeId="7bd63c84-5f65-4881-a1b9-5d48fdc0872a"/>
+    <selectionType typeId="fb2e1a59-9999-41a8-9883-e479a6bf1756" valueTypeId="2d4b21c6-7b21-429a-943a-827b1b375d1b"/>
+    <listType typeId="2b8627cb-4aeb-44ae-ae58-4df0a53c62b3" valueTypeId="a18f535b-f846-4efd-b408-61e7d98f593d"/>
+    <managerType typeId="8f97b2ab-1068-4436-b0d3-6471a30995fa" valueTypeId="1850849b-3009-4ce8-af10-e65143ecec1f"/>
+  </producedTypes>
+  <name>МоиЗадачи</name>
+  <synonym>
+    <key>en</key>
+    <value>Мои задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.МоиЗадачи.StandardAttribute.Number</inputByString>
+  <inputByString>Task.МоиЗадачи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>ОбработкаЗаказа</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Task.МоиЗадачи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Task.МоиЗадачи.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="00c96e79-43fd-4a96-abca-99478ecae87f">
+    <name>ПодробноеОписание</name>
+    <synonym>
+      <key>en</key>
+      <value>Подробное описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af340024-f42a-451c-a4ad-df85552302e2">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>en</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тестировщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ФамилияИмяОтчество</name>
+      <value xsi:type="core:UndefinedValue"/>
+    </choiceParameters>
+    <choiceForm>Catalog.Тестировщики.Form.ФормаВыбора</choiceForm>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86403f5e-5850-428f-b13c-a34fc020e236">
+    <name>Статус</name>
+    <synonym>
+      <key>en</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыЗаказа.EnumValue.Открытый</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e84fa7a3-4fa2-41dc-9e7a-eaa832bb47be">
+    <name>ДатаЗавершения</name>
+    <synonym>
+      <key>en</key>
+      <value>Дата завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3ee0dab2-0c40-4497-bccc-99364af48052">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a236a683-9c20-4512-9b17-b02a23a5ca70">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Task>
