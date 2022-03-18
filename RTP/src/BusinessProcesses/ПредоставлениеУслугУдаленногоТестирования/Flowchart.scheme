@@ -478,7 +478,7 @@
 				<Event name="BeforeExecuteInteractively"/>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="OnCreateTask"/>
+				<Event name="OnCreateTask">ЗакрытьЗаказПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 			</Events>
 		</Activity>
@@ -570,7 +570,7 @@
 				<Event name="BeforeExecuteInteractively"/>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="OnCreateTask"/>
+				<Event name="OnCreateTask">СоставлениеЧекЛистаПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 			</Events>
 		</Activity>
@@ -661,7 +661,7 @@
 				<Event name="BeforeExecuteInteractively"/>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="OnCreateTask"/>
+				<Event name="OnCreateTask">ТестированиеПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 			</Events>
 		</Activity>
@@ -752,7 +752,7 @@
 				<Event name="BeforeExecuteInteractively"/>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="OnCreateTask"/>
+				<Event name="OnCreateTask">ПодготовкаОтчётаПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 			</Events>
 		</Activity>
@@ -843,7 +843,7 @@
 				<Event name="BeforeExecuteInteractively"/>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="OnCreateTask"/>
+				<Event name="OnCreateTask">ПроизвестиРасчётУТПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 			</Events>
 		</Activity>
@@ -935,7 +935,7 @@
 				<Event name="BeforeExecuteInteractively"/>
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="CheckExecutionProcessing"/>
-				<Event name="OnCreateTask"/>
+				<Event name="OnCreateTask">ЗавершитьРасчётСЗаказчикомПриСозданииЗадач</Event>
 				<Event name="OnExecute"/>
 			</Events>
 		</Activity>

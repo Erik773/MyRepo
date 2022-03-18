@@ -51,6 +51,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f2e93f15-a858-4699-afc0-4823ad9ed2d2">
+    <name>ФормаСпискаВсеЗадачи</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка все задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <addressingAttributes uuid="9e832b4e-c8de-4a12-a480-07dadb9310e7">
     <name>ТипПользователя</name>
     <synonym>

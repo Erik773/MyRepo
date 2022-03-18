@@ -16,6 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ОформлениеЗаказа</basedOn>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
