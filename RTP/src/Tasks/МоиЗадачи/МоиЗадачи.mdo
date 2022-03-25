@@ -79,13 +79,13 @@
       <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусыЗаказа</types>
+      <types>EnumRef.СтатусыЗадачи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.СтатусыЗаказа.EnumValue.Открытый</value>
+      <value>Enum.СтатусыЗадачи.EnumValue.Открытый</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

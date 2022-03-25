@@ -26,7 +26,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.20</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="b681601c-760b-4e8c-9e25-73a78a54dbfc">
     <name>English</name>
     <synonym>
@@ -46,7 +46,7 @@
   <roles>Role.Заказчик</roles>
   <roles>Role.Администратор</roles>
   <roles>Role.Менеджер</roles>
-  <commonModules>CommonModule.ОбщиеФункции</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСервер</commonModules>
   <commonCommands>CommonCommand.АвторизоватьПользователя</commonCommands>
   <catalogs>Catalog.Тестировщики</catalogs>
   <catalogs>Catalog.Заказчики</catalogs>
@@ -56,6 +56,7 @@
   <catalogs>Catalog.ЧекЛисты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Менеджеры</catalogs>
+  <catalogs>Catalog.РабочиеГруппы</catalogs>
   <documents>Document.ОформлениеЗаказа</documents>
   <documents>Document.ИсполнениеТестовогоСценария</documents>
   <documents>Document.РегистрацияПользователя</documents>
@@ -68,7 +69,7 @@
   <enums>Enum.ТипыТестовыхСценариев</enums>
   <enums>Enum.КвалификацииУдаленныхТестировщиков</enums>
   <enums>Enum.ВидыТестирования</enums>
-  <enums>Enum.СтатусыЗаказа</enums>
+  <enums>Enum.СтатусыЗадачи</enums>
   <reports>Report.РезультатыТестирования</reports>
   <reports>Report.РезультатыСравненияКонтрольногоЧекЛиста</reports>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>

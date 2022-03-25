@@ -33,6 +33,24 @@
   <editType>InDialog</editType>
   <defaultObjectForm>Task.ЗадачаБП.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Task.ЗадачаБП.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b8cf3d7b-6f8e-4f0a-9451-2a904c710d7e">
+    <name>Статус</name>
+    <synonym>
+      <key>en</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыЗадачи.EnumValue.Открытый</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="3b8eccdb-fe13-4681-b9df-91bc4c61ee75">
     <name>ФормаЭлемента</name>
     <synonym>

@@ -15,4 +15,5 @@
   <content>Task.ЗадачаБП</content>
   <content>Task.МоиЗадачи</content>
   <content>InformationRegister.РегистрАдресации</content>
+  <content>Catalog.РабочиеГруппы</content>
 </mdclass:Subsystem>

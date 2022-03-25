@@ -17,4 +17,5 @@
   <content>Document.УдалениеПользователя</content>
   <content>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования</content>
   <content>Task.ЗадачаБП</content>
+  <content>Catalog.РабочиеГруппы</content>
 </mdclass:Subsystem>

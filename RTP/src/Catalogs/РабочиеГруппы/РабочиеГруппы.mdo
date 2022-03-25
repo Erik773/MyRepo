@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1926b2b-4286-42d9-8d75-27b2df5bcb83">
+  <producedTypes>
+    <objectType typeId="fdc4cbe0-cde6-4e82-9fa0-f95d4b0648e4" valueTypeId="6c071893-7ec5-43bf-8630-3dac0cf25951"/>
+    <refType typeId="9a00a005-7e74-4c69-8cae-73abd437ae98" valueTypeId="2d460b11-376a-4175-8e55-8f704bcf45f1"/>
+    <selectionType typeId="01234a06-c53d-4bf2-b2b5-6dc198147c8c" valueTypeId="356fd2cf-3f2d-4845-845e-ec9ab354b0c3"/>
+    <listType typeId="9d367c1e-39e0-47c9-a71f-29f1baa1e27c" valueTypeId="5438242c-bd88-45a9-9965-7897a2efeed9"/>
+    <managerType typeId="02db9558-0be7-4613-ab8f-94e16754a82c" valueTypeId="d5bf0708-2691-40eb-9591-f4648c061288"/>
+  </producedTypes>
+  <name>РабочиеГруппы</name>
+  <synonym>
+    <key>en</key>
+    <value>Рабочие группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РабочиеГруппы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РабочиеГруппы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="638508d2-53de-4655-9e5d-5e863a7580ad">
+    <name>Менеджер</name>
+    <synonym>
+      <key>en</key>
+      <value>Менеджер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Менеджеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d7ba655-d98c-4d2f-b887-b76612bfe7ee">
+    <name>Тестировщик</name>
+    <synonym>
+      <key>en</key>
+      <value>Тестировщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тестировщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f6ba930-ceff-4379-9b13-0f666b80d5e7">
+    <name>УдаленныйТестировщик</name>
+    <synonym>
+      <key>en</key>
+      <value>Удаленный тестировщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УдаленныеТестировщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="babab176-0ade-41b9-9904-7cdd2e95ee5a">
+    <name>НаСмене</name>
+    <synonym>
+      <key>en</key>
+      <value>На смене</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a541cd45-7789-404d-80c4-446dfdbb5773">
+    <producedTypes>
+      <objectType typeId="8150d034-edb0-43c5-8e24-b60a2b929b19" valueTypeId="dd226c24-8ab8-479f-91c0-1e639d8c3cc4"/>
+      <rowType typeId="9732cd43-e82d-4e85-ac6a-f20620330c77" valueTypeId="a45d700a-31a2-4951-868c-faf1f5498656"/>
+    </producedTypes>
+    <name>ЗаказыВРаботе</name>
+    <synonym>
+      <key>en</key>
+      <value>Заказы в работе</value>
+    </synonym>
+    <attributes uuid="0ad48888-ecc8-4eee-b1c4-05fb162d2226">
+      <name>Заказчик</name>
+      <synonym>
+        <key>en</key>
+        <value>Заказчик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Заказчики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="33dc989d-961d-483a-9cd3-73c231e10742">
+      <name>Заказ</name>
+      <synonym>
+        <key>en</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Заказы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="56aa7cf3-9f53-4dc4-823f-41a6e081775c">
+      <name>БизнесПроцесс</name>
+      <synonym>
+        <key>en</key>
+        <value>Бизнес процесс</value>
+      </synonym>
+      <type>
+        <types>BusinessProcessRef.ПредоставлениеУслугУдаленногоТестирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

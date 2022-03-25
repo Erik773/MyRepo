@@ -4,7 +4,11 @@
 		<item xsi:type="FilterItemComparison">
 			<left xsi:type="dcscor:Field">Статус</left>
 			<comparisonType>Equal</comparisonType>
-			<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗаказа.НаСогласовании</right>
+			<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадачи.НаИсполнении</right>
 		</item>
 	</filter>
+	<order>
+	</order>
+	<conditionalAppearance>
+	</conditionalAppearance>
 </Settings>

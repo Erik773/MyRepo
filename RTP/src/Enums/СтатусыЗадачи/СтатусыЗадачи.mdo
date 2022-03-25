@@ -5,10 +5,10 @@
     <listType typeId="6da51072-f4bc-4786-a6a0-f9fd14499107" valueTypeId="6795e70d-68d6-4b4e-a632-8af84ae77d85"/>
     <managerType typeId="07451306-0707-412a-8dd7-b75862a1564a" valueTypeId="8079ff32-e0de-4cb2-8558-b76e84fe522c"/>
   </producedTypes>
-  <name>СтатусыЗаказа</name>
+  <name>СтатусыЗадачи</name>
   <synonym>
     <key>en</key>
-    <value>Статусы заказа</value>
+    <value>Статусы задачи</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

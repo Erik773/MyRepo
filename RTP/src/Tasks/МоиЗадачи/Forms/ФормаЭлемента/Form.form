@@ -196,16 +196,7 @@
       <radioButtonsType>Tumbler</radioButtonsType>
       <choiceList>
         <value xsi:type="core:ReferenceValue">
-          <value>Enum.СтатусыЗаказа.EnumValue.Открытый</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <presentation>
-          <key>en</key>
-          <value>На согласовании</value>
-        </presentation>
-        <value xsi:type="core:ReferenceValue">
-          <value>Enum.СтатусыЗаказа.EnumValue.НаСогласовании</value>
+          <value>Enum.СтатусыЗадачи.EnumValue.Открытый</value>
         </value>
       </choiceList>
       <choiceList>
@@ -214,12 +205,12 @@
           <value>На исполнении</value>
         </presentation>
         <value xsi:type="core:ReferenceValue">
-          <value>Enum.СтатусыЗаказа.EnumValue.НаИсполнении</value>
+          <value>Enum.СтатусыЗадачи.EnumValue.НаИсполнении</value>
         </value>
       </choiceList>
       <choiceList>
         <value xsi:type="core:ReferenceValue">
-          <value>Enum.СтатусыЗаказа.EnumValue.Закрытый</value>
+          <value>Enum.СтатусыЗадачи.EnumValue.Закрытый</value>
         </value>
       </choiceList>
     </extInfo>
