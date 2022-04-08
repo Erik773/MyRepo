@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Номер</name>
     <id>1</id>
@@ -257,6 +257,26 @@
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
+      <for>
+        <value>true</value>
+        <role>Role.Тестировщик</role>
+      </for>
+      <for>
+        <value>true</value>
+        <role>Role.УдаленныйТестировщик</role>
+      </for>
+      <for>
+        <value>true</value>
+        <role>Role.Заказчик</role>
+      </for>
+      <for>
+        <value>true</value>
+        <role>Role.Администратор</role>
+      </for>
+      <for>
+        <value>true</value>
+        <role>Role.Менеджер</role>
+      </for>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ВидыТестирования</segments>
@@ -291,7 +311,34 @@
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:RadioButtonsFieldExtInfo"/>
+    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>RadioButtons</radioButtonsType>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыТестирования.EnumValue.НагрузочноеТестирование</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыТестирования.EnumValue.UXТестирование</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыТестирования.EnumValue.ЮзабилитиТестирование</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыТестирования.EnumValue.ABТестирование</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыТестирования.EnumValue.БетаТестирование</value>
+        </value>
+      </choiceList>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Бюджет</name>

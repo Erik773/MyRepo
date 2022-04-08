@@ -1828,13 +1828,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.АвторизоватьПользователя</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Task.МоиЗадачи</name>
 		<right>
 			<name>InteractiveSetDeletionMark</name>

@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РабочиеГруппы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="638508d2-53de-4655-9e5d-5e863a7580ad">
     <name>Менеджер</name>
     <synonym>
@@ -90,6 +91,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="78750a23-cd6f-447d-b213-8c0a2c68c41e">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>en</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="a541cd45-7789-404d-80c4-446dfdbb5773">
     <producedTypes>
       <objectType typeId="8150d034-edb0-43c5-8e24-b60a2b929b19" valueTypeId="dd226c24-8ab8-479f-91c0-1e639d8c3cc4"/>
@@ -100,20 +116,6 @@
       <key>en</key>
       <value>Заказы в работе</value>
     </synonym>
-    <attributes uuid="0ad48888-ecc8-4eee-b1c4-05fb162d2226">
-      <name>Заказчик</name>
-      <synonym>
-        <key>en</key>
-        <value>Заказчик</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Заказчики</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="33dc989d-961d-483a-9cd3-73c231e10742">
       <name>Заказ</name>
       <synonym>
@@ -128,19 +130,14 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="56aa7cf3-9f53-4dc4-823f-41a6e081775c">
-      <name>БизнесПроцесс</name>
-      <synonym>
-        <key>en</key>
-        <value>Бизнес процесс</value>
-      </synonym>
-      <type>
-        <types>BusinessProcessRef.ПредоставлениеУслугУдаленногоТестирования</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
   </tabularSections>
+  <forms uuid="671ad417-4547-49b2-a008-cf9387dcf609">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -46,8 +46,7 @@
   <roles>Role.Заказчик</roles>
   <roles>Role.Администратор</roles>
   <roles>Role.Менеджер</roles>
-  <commonModules>CommonModule.ОбщийМодульКлиентСервер</commonModules>
-  <commonCommands>CommonCommand.АвторизоватьПользователя</commonCommands>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <catalogs>Catalog.Тестировщики</catalogs>
   <catalogs>Catalog.Заказчики</catalogs>
   <catalogs>Catalog.УдаленныеТестировщики</catalogs>

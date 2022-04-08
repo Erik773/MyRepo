@@ -14,8 +14,13 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Заказы.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Заказы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -29,6 +34,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Заказы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="84a5d6a8-a2b7-48dd-a09e-123a8f3528ed">
     <name>БизнесПроцесс</name>
     <synonym>
@@ -36,7 +42,7 @@
       <value>Бизнес процесс</value>
     </synonym>
     <type>
-      <types>BusinessProcessRef</types>
+      <types>BusinessProcessRef.ПредоставлениеУслугУдаленногоТестирования</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -44,4 +50,59 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0a32c617-48f9-4133-92d9-3dd374e6ce9d">
+    <name>РабочаяГруппа</name>
+    <synonym>
+      <key>en</key>
+      <value>Рабочая группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="275a9f40-da5a-4b62-a82a-f5c68d7a08d5">
+    <name>Выполнен</name>
+    <synonym>
+      <key>en</key>
+      <value>Выполнен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5689f64-47a8-4765-9b16-a10c68a94cbe">
+    <name>Название</name>
+    <synonym>
+      <key>en</key>
+      <value>Название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="19ae9852-53bf-4895-89d4-f1fd21b3d401">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
