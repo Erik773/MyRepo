@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
-		<item xsi:type="FilterItemComparison">
-			<left xsi:type="dcscor:Field">Статус</left>
-			<comparisonType>Equal</comparisonType>
-			<right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЗадачи.НаИсполнении</right>
-		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>8d6ec77d-26e4-46f4-85ba-17594b82ae05</userSettingID>
 	</filter>
 	<order>
+		<viewMode>Normal</viewMode>
+		<userSettingID>c339cc31-b1b4-4d13-aa7b-ef47ee96393e</userSettingID>
 	</order>
 	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+		<userSettingID>7492522f-6286-4464-9c7a-956a7bebd9f7</userSettingID>
 	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>25067ce6-1e93-4d47-8c4d-47dcc2c2974a</itemsUserSettingID>
 </Settings>

@@ -73,6 +73,5 @@
   <reports>Report.РезультатыСравненияКонтрольногоЧекЛиста</reports>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
   <businessProcesses>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования</businessProcesses>
-  <tasks>Task.МоиЗадачи</tasks>
   <tasks>Task.ЗадачаБП</tasks>
 </mdclass:Configuration>

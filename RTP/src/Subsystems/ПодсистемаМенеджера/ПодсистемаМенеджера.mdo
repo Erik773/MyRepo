@@ -12,8 +12,7 @@
   <content>Document.ОформлениеЗаказа</content>
   <content>Catalog.Заказы</content>
   <content>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования</content>
-  <content>Task.ЗадачаБП</content>
-  <content>Task.МоиЗадачи</content>
   <content>InformationRegister.РегистрАдресации</content>
   <content>Catalog.РабочиеГруппы</content>
+  <content>Task.ЗадачаБП</content>
 </mdclass:Subsystem>

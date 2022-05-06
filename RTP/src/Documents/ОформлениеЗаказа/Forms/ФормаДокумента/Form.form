@@ -152,7 +152,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>КонтактнаяИнформация</name>
-    <id>16</id>
+    <id>30</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -163,7 +163,7 @@
     </dataPath>
     <extendedTooltip>
       <name>КонтактнаяИнформацияРасширеннаяПодсказка</name>
-      <id>18</id>
+      <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -178,7 +178,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>КонтактнаяИнформацияКонтекстноеМеню</name>
-      <id>17</id>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -187,17 +187,19 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>TextDocumentField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:TextDocFieldExtInfo">
-      <width>20</width>
+      <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
-      <height>10</height>
+      <height>3</height>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
-      <verticalStretch>true</verticalStretch>
+      <backColor xsi:type="core:ColorRef">
+        <color>Web.Cream</color>
+      </backColor>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -251,8 +253,12 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВидыТестирования</name>
+    <name>ВидТестирования</name>
     <id>13</id>
+    <title>
+      <key>en</key>
+      <value>Вид тестирования</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -279,10 +285,10 @@
       </for>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВидыТестирования</segments>
+      <segments>Объект.ВидТестирования</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВидыТестированияРасширеннаяПодсказка</name>
+      <name>ВидТестированияРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -297,7 +303,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВидыТестированияКонтекстноеМеню</name>
+      <name>ВидТестированияКонтекстноеМеню</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -312,7 +318,7 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-      <radioButtonsType>RadioButtons</radioButtonsType>
+      <radioButtonsType>Tumbler</radioButtonsType>
       <choiceList>
         <value xsi:type="core:ReferenceValue">
           <value>Enum.ВидыТестирования.EnumValue.НагрузочноеТестирование</value>
@@ -484,12 +490,12 @@
     <extInfo xsi:type="form:TextDocFieldExtInfo">
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
-      <maxWidth>70</maxWidth>
-      <height>10</height>
+      <height>14</height>
       <autoMaxHeight>true</autoMaxHeight>
-      <maxHeight>20</maxHeight>
       <horizontalStretch>true</horizontalStretch>
-      <verticalStretch>true</verticalStretch>
+      <backColor xsi:type="core:ColorRef">
+        <color>Web.Cream</color>
+      </backColor>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -528,6 +534,44 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаЗакрыть</name>
+      <id>33</id>
+      <title>
+        <key>en</key>
+        <value>Отменить</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
+        <id>34</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.StandardCommand.Close</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>102</green>
+      </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

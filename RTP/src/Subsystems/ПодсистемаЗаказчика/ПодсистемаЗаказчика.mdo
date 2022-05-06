@@ -7,9 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Role.Заказчик</content>
-  <content>Catalog.Заказы</content>
-  <content>Document.ОформлениеЗаказа</content>
   <content>Role.Администратор</content>
-  <content>Task.ЗадачаБП</content>
+  <content>Document.ОформлениеЗаказа</content>
+  <content>Role.Заказчик</content>
 </mdclass:Subsystem>

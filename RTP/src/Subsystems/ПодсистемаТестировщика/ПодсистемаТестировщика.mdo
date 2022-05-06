@@ -15,6 +15,5 @@
   <content>Document.ИзменениеУровняКвалификации</content>
   <content>Report.РезультатыТестирования</content>
   <content>Report.РезультатыСравненияКонтрольногоЧекЛиста</content>
-  <content>Task.МоиЗадачи</content>
   <content>Task.ЗадачаБП</content>
 </mdclass:Subsystem>

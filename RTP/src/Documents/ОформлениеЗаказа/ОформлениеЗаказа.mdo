@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОформлениеЗаказа.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОформлениеЗаказа.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="6705be14-79dc-4063-806c-f2034057069c">
@@ -61,10 +62,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="fbd866d0-7c09-42be-b518-403745228877">
-    <name>ВидыТестирования</name>
+    <name>ВидТестирования</name>
     <synonym>
       <key>en</key>
-      <value>Виды тестирования</value>
+      <value>Вид тестирования</value>
     </synonym>
     <comment>Выбрать виды тестирования, которые необходмо провести</comment>
     <type>
@@ -152,6 +153,15 @@
     <synonym>
       <key>en</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d361ebb-5bf1-42c2-8db5-3c60c932a54d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

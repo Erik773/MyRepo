@@ -96,6 +96,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ed93d45c-5ce0-4c70-9413-5fe76b8d0a86">
+    <name>Заказчик</name>
+    <synonym>
+      <key>en</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="19ae9852-53bf-4895-89d4-f1fd21b3d401">
     <name>ФормаЭлемента</name>
     <synonym>

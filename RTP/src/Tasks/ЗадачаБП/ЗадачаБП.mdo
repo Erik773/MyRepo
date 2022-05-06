@@ -10,7 +10,7 @@
   <name>ЗадачаБП</name>
   <synonym>
     <key>en</key>
-    <value>Задача БП</value>
+    <value>Мои задачи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Task.ЗадачаБП.StandardAttribute.Number</inputByString>
