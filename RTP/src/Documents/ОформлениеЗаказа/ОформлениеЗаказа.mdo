@@ -77,16 +77,14 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c10aa025-ebea-495b-bb0d-4c5c93112e69">
-    <name>КонтактнаяИнформация</name>
+    <name>НомерТелефона</name>
     <synonym>
       <key>en</key>
-      <value>Контактная информация</value>
+      <value>Номер телефона</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>255</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -137,6 +135,38 @@
     <synonym>
       <key>en</key>
       <value>Комментарии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="701a1b60-ef74-4524-bce7-60c39f56df6a">
+    <name>ЭлектроннаяПочта</name>
+    <synonym>
+      <key>en</key>
+      <value>Электронная почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10565f47-663d-4624-9279-15296b81462c">
+    <name>ДругойСпособСвязи</name>
+    <synonym>
+      <key>en</key>
+      <value>Другой способ связи</value>
     </synonym>
     <type>
       <types>String</types>
