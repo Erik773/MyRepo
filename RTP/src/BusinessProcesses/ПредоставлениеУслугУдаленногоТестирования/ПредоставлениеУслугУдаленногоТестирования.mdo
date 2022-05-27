@@ -153,6 +153,20 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="1b2e899b-cc78-449a-a365-d8c04257d563">
+    <name>ВидТестирования</name>
+    <synonym>
+      <key>en</key>
+      <value>Вид тестирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТестирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <forms uuid="6da6306f-19d0-4ef0-964d-16ee6a6958df">
     <name>ФормаЭлемента</name>
     <synonym>

@@ -306,19 +306,19 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ЗаказыВРаботеНомерСтроки</name>
-      <id>32</id>
+      <name>ЗаказыВРаботеКод</name>
+      <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЗаказыВРаботе.LineNumber</segments>
+        <segments>Объект.ЗаказыВРаботе.Код</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗаказыВРаботеНомерСтрокиРасширеннаяПодсказка</name>
-        <id>34</id>
+        <name>ЗаказыВРаботеКодРасширеннаяПодсказка</name>
+        <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -332,8 +332,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЗаказыВРаботеНомерСтрокиКонтекстноеМеню</name>
-        <id>33</id>
+        <name>ЗаказыВРаботеКодКонтекстноеМеню</name>
+        <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -341,30 +341,34 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
-      <editMode>EnterOnInput</editMode>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ЗаказыВРаботеЗаказНазвание</name>
-      <id>38</id>
+      <name>ЗаказыВРаботеНазвание</name>
+      <id>46</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЗаказыВРаботе.Заказ.Название</segments>
+        <segments>Объект.ЗаказыВРаботе.Название</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗаказыВРаботеЗаказНазваниеРасширеннаяПодсказка</name>
-        <id>40</id>
+        <name>ЗаказыВРаботеНазваниеРасширеннаяПодсказка</name>
+        <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -378,8 +382,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЗаказыВРаботеЗаказНазваниеКонтекстноеМеню</name>
-        <id>39</id>
+        <name>ЗаказыВРаботеНазваниеКонтекстноеМеню</name>
+        <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -404,13 +408,42 @@
     <autoCommandBar>
       <name>ЗаказыВРаботеКоманднаяПанель</name>
       <id>21</id>
+      <items xsi:type="form:Button">
+        <name>ЗаказыВРаботеКомандаОбновитьСписок</name>
+        <id>41</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗаказыВРаботеКомандаОбновитьСписокРасширеннаяПодсказка</name>
+          <id>42</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.КомандаОбновитьСписок</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
       <visible>true</visible>
@@ -586,6 +619,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -610,9 +647,31 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>КомандаОбновитьСписок</name>
+    <title>
+      <key>en</key>
+      <value>Обновить список активных задач</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаОбновитьСписок</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

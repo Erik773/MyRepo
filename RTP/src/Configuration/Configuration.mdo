@@ -36,9 +36,9 @@
     <languageCode>en</languageCode>
   </languages>
   <subsystems>Subsystem.ПодсистемаЗаказчика</subsystems>
-  <subsystems>Subsystem.ПодсистемаУдаленногоТестировщика</subsystems>
   <subsystems>Subsystem.ПодсистемаТестировщика</subsystems>
   <subsystems>Subsystem.ПодсистемаАдминистратора</subsystems>
+  <subsystems>Subsystem.ПодсистемаУдаленногоТестировщика</subsystems>
   <subsystems>Subsystem.ПодсистемаМенеджера</subsystems>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Тестировщик</roles>

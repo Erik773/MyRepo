@@ -15,6 +15,4 @@
   <content>Document.РегистрацияПользователя</content>
   <content>Catalog.Менеджеры</content>
   <content>Document.УдалениеПользователя</content>
-  <content>BusinessProcess.ПредоставлениеУслугУдаленногоТестирования</content>
-  <content>Catalog.РабочиеГруппы</content>
 </mdclass:Subsystem>

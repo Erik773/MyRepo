@@ -109,6 +109,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="99ba285a-18e7-4c05-b5be-a35fbeb48707">
+    <name>КоличествоАктивныхЗаказов</name>
+    <synonym>
+      <key>en</key>
+      <value>Количество активных заказов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="a541cd45-7789-404d-80c4-446dfdbb5773">
     <producedTypes>
       <objectType typeId="8150d034-edb0-43c5-8e24-b60a2b929b19" valueTypeId="dd226c24-8ab8-479f-91c0-1e639d8c3cc4"/>
@@ -119,14 +138,30 @@
       <key>en</key>
       <value>Заказы в работе</value>
     </synonym>
-    <attributes uuid="33dc989d-961d-483a-9cd3-73c231e10742">
-      <name>Заказ</name>
+    <attributes uuid="7984b53d-5f7b-4887-b590-81c1683c3aa1">
+      <name>Код</name>
       <synonym>
         <key>en</key>
-        <value>Заказ</value>
+        <value>Код</value>
       </synonym>
       <type>
-        <types>CatalogRef.Заказы</types>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bd5fe40-e89c-4730-b646-2de8116ea83a">
+      <name>Название</name>
+      <synonym>
+        <key>en</key>
+        <value>Название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
