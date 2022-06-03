@@ -686,7 +686,7 @@
       <id>33</id>
       <title>
         <key>en</key>
-        <value>Отменить</value>
+        <value>Закрыть</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -713,10 +713,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <backColor xsi:type="core:ColorDef">
-        <red>255</red>
-        <green>102</green>
-      </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

@@ -10,4 +10,5 @@
   <content>Role.Администратор</content>
   <content>Document.ОформлениеЗаказа</content>
   <content>Role.Заказчик</content>
+  <content>Document.ЗакрытиеЗаказа</content>
 </mdclass:Subsystem>

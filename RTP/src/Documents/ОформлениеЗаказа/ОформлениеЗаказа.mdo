@@ -178,6 +178,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="896200dd-3703-4577-8050-ee275500142b">
+    <name>СвязанныйБизнесПроцесс</name>
+    <synonym>
+      <key>en</key>
+      <value>Связанный бизнес процесс</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.ПредоставлениеУслугУдаленногоТестирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="dc4199bb-381f-4835-acda-bbc8e9464dad">
     <name>ФормаДокумента</name>
     <synonym>
